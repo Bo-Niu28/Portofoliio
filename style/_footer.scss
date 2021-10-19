@@ -1,0 +1,17 @@
+footer {
+  background-color: $bg-color;
+}
+
+.footer__container {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 10vh;
+  @include flex(space-between, center, row);
+  h3 {
+    color: white;
+  }
+}
+
+.footer__link + .footer__link {
+  margin-left: 4rem;
+}

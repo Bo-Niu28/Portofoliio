@@ -1,0 +1,29 @@
+.contact {
+  min-height: 90vh;
+  @include flex(center, center, row);
+}
+
+form {
+  min-height: 50vh;
+  @include flex(center, center, column);
+  padding: 9rem;
+  border-radius: 3rem;
+  box-shadow: 0 10px 15px rgba($color: #000000, $alpha: 0.5);
+  input {
+    margin: 1rem 0 3rem 0;
+    border: none;
+    background-color: $grey-text;
+    color: white;
+    padding: 0.5rem 0;
+  }
+  button {
+    width: 100%;
+    border: none;
+    background-color: $bg-color;
+    color: white;
+    padding: 2rem 5rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+}
